@@ -2,7 +2,14 @@
   margin: 0;
   padding: 0;
 }
-h1 {
+body {
+  background-color: rgb(156, 103, 103);
+  max-width: 100%;
+}
+.header {
+  max-width: 60%;
+
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,4 +17,7 @@ h1 {
   background-color: rgb(174, 125, 219);
   font-family: sans-serif;
   font-weight: 1200;
+}
+h1 {
+  height: 50%;
 }
